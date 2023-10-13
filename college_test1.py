@@ -19,7 +19,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 driver.get("http://akuexams.in/akuexam/StudentServices/frmStudentForgotPassword.aspx")
 
-driver.find_element(By.NAME, "txtuserid").send_keys("21105128012")
+driver.find_element(By.NAME, "txtuserid").send_keys("22105128036")
 # driver.find_element(BY.NAME , "pass").send_keys("xxxxxx")
 driver.find_element(By.ID , "btnGo").click()
 
